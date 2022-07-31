@@ -1,10 +1,19 @@
 .App {
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+.Button {
+  height: 30px;
+  width: 80px;
+  margin: 10px;
 }
 
 @media (prefers-reduced-motion: no-preference) {

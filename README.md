@@ -1,8 +1,12 @@
-# Getting Started with Create React App
+## Просто знакомство с апишкой для аутентификации по лицу
+
+ к сожалению все интересные эндпоинты доступны по подписке, так что даже количество зарегестрированных пользователей не вывести
+
+### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
