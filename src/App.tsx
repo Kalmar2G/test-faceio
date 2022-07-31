@@ -45,14 +45,7 @@ function App() {
     <div className="App">
       <section>
         <h1>Face Authentication by FaceIO</h1>
-        {!user && (
-        <div>
-          <h2>Вы не авторизованы</h2>
-          <button className="Button" type="button" onClick={handleSignIn}>Sign-in</button>
-          <button className="Button" type="button" onClick={handleLogIn}>Log-in</button>
-        </div>
-        )}
-        {user && (
+        {user ? (
           <div>
             <h3>
               id:
@@ -62,6 +55,12 @@ function App() {
               username:
               {usrName}
             </h3>
+          </div>
+        ) : (
+          <div>
+            <h2>Вы не авторизованы</h2>
+            <button className="Button" type="button" onClick={handleSignIn}>Sign-in</button>
+            <button className="Button" type="button" onClick={handleLogIn}>Log-in</button>
           </div>
         )}
       </section>

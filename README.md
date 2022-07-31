@@ -2,6 +2,8 @@
 
  к сожалению все интересные эндпоинты доступны по подписке, так что даже количество зарегестрированных пользователей не вывести
 
+### deploy https://test-faceio.vercel.app/
+
 ### Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
